@@ -1,6 +1,6 @@
 .footer {
     border: 1px solid #ddd; 
-    background-color:#A3249A;
+    background-color: #e347eb;
     padding: 7px;
     bottom: 0;
    
@@ -8,12 +8,12 @@
 
 .footer > h2{
  font-family: Georgia, 'Times New Roman', Times, serif;
- color:#edb4f0;
+ color:#ffffff;
 }
 
 .fun {
-    padding: 100px;
+    margin-top:50px;
     flex: 1; 
     margin-left: 0%;
-    width: 90%;
+    width: 100%;
 }

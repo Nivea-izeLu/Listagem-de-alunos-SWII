@@ -25,11 +25,11 @@ export default function Card () {
                     ))}
                 </ul>
 
-                <button onClick={() => AdicionarInicio(lista, setLista)}>Adicionar Inicio</button>
-                <button onClick={() => AdicionarFinal(lista, setLista)}>Adicionar Final</button>
-                <button onClick={() => AlterarSegundo(lista, setLista)}>Alterar segundo</button>
-                <button onClick={() => RemoverInicio(lista, setLista)}>Remover Inicio</button>
-                <button onClick={() => RemoverFinal(lista, setLista)}>Remover Final</button>
+                <button class="button" onClick={() => AdicionarInicio(lista, setLista)}>Adicionar Inicio</button>
+                <button class="button" onClick={() => AdicionarFinal(lista, setLista)}>Adicionar Final</button>
+                <button class="button" onClick={() => AlterarSegundo(lista, setLista)}>Alterar segundo</button>
+                <button class="button" onClick={() => RemoverInicio(lista, setLista)}>Remover Inicio</button>
+                <button class="button" onClick={() => RemoverFinal(lista, setLista)}>Remover Final</button>
             </div>
         </div>
     )
