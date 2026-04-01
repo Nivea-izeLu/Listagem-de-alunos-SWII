@@ -1,3 +1,5 @@
+import "./card.css";
+
 import AdicionarInicio from "../AdicionarInicio.jsx"
 import AdicionarFinal from "../AdicionarFinal.jsx"
 import AlterarSegundo from "../AlterarSegundo.jsx"
@@ -13,11 +15,11 @@ export default function Card () {
     return( 
 
         <div>
-            <h2>Lista de Alunos</h2>
+            <h2 class="tit">Lista de Alunos</h2>
 
             <div>
 
-                <ul>
+                <ul class="lista">
                     {lista.map((item, index) => (
                     <li key={index}>{item}</li>
                     ))}
