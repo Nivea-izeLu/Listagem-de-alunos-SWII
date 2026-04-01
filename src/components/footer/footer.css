@@ -1,0 +1,16 @@
+.footer {
+    border: 1px solid #ddd; 
+    background-color:#A3249A;
+    padding: 7px;
+    
+    bottom: 0;
+   
+    
+}
+
+.fun {
+    padding: 120px;
+    flex: 1; 
+    margin-left: calc(-66vw + 64%);
+    width: 100%;
+}
