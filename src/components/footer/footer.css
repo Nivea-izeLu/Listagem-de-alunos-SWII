@@ -2,15 +2,18 @@
     border: 1px solid #ddd; 
     background-color:#A3249A;
     padding: 7px;
-    
     bottom: 0;
    
-    
+}
+
+.footer > h2{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color:#edb4f0;
 }
 
 .fun {
-    padding: 120px;
+    padding: 100px;
     flex: 1; 
-    margin-left: calc(-66vw + 64%);
-    width: 100%;
+    margin-left: 0%;
+    width: 90%;
 }
