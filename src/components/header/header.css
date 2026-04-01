@@ -1,0 +1,22 @@
+
+.roof{
+
+    --var-color1: #e347eb
+    --var-color2: #a3249a
+}
+.container {
+    background-color:#e347eb;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom:30px;
+}
+
+.titulo{
+   font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.sub{
+
+    color: #a3249a;
+}
